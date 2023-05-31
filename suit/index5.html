@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>aim Games</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="index3.css">
+	</head>
+	<body>
+    <div class="main">
+		<header>
+    			<nav>
+      				<div class="container">
+        				<ul class="spis">
+          					<li  class="spis yellow"><a href="index.html">Главная</a></li>
+         					<li class="spis green"><a href="index1.html">Популярные игры</a></li>
+          					<li class="spis purple"><a href="index3.html">Cookie clicker</a></li>
+          					<li class="active" class="spis red"><a href="index5.html">Тренировка аима</a></li>
+        				</ul>
+      				</div>
+    			</nav>
+  			</header>
+  			<h4>Игра для повышения точности в фпс шутерах</h4>
+			<div class="timer" id="timer">30</div>
+       	<div class=container_for_game>
+       		<div class="border">
+       			<div class="result" id="result">
+       				<div class="result_title" id="result_title">
+       					<p id="result_title_p">Ваш результат</p>
+       				</div>
+	       			<div class="score" id="score"><p id="score_p"></p></div>
+       			</div>
+       			
+       			<div class="start_btn" onclick="beginGame(this)" onclick="timer(this)" id="start_btn">Старт</div>
+       			<div class="square" onclick="square(this)" id="square"></div>
+       		</div>
+       	</div>
+       	<script src="aim_game.js" type="text/javascript"> 
+       	</script>
+
+       </div>
+
+		</div>
+	</div>
+	</body>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+	font-family: 'Montserrat',sans-serif;
+}
+
+.container_for_game {
+	width: 500px;
+	height: 500px;
+	background-color: #FFD518;
+	border-radius: 40px;
+	margin: 0px auto;
+	position: relative;
+}
+.border {
+width: 430px;
+height: 430px;
+background-color: #FFFCF0;
+position: absolute;
+margin: 35px 35px;
+}
+
+.start_btn {
+	display: block;
+	text-transform:  uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFD518;
+	max-width: 100px;
+	padding: 10px 5px 10px 5px;
+	border-radius: 15px;
+	margin: 200px auto;
+	cursor: pointer;
+}
+.timer {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 250px;
+}
+.square {
+	display: none;
+	width: 50px;
+	height: 50px;
+	background-color: #ddd;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	border-radius: 25px;
+}
+.result {
+	display: none;
+	position: absolute;
+	margin-left: 77.5px;
+	margin-top: 150px;
+}
+.result_title {
+	display: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+.score {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	margin: auto;
+}
+#score_p {
+	text-align: center;
+	margin: 0;
+}
